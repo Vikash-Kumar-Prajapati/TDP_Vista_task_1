@@ -50,6 +50,10 @@ namespace TDP_Vista_task_1
 				dt.Rows.Add(5, "E", 500, 100);
 				data.DataSource = dt;
 			}
+			else
+			{
+				MessageBox.Show("Invalid");
+			}
 
 		}
 
